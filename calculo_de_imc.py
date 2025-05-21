@@ -16,13 +16,13 @@ print(f'Segundo os dados fornecidos, informamos que {nome_do_usuario}, tem um IM
 #Uma mensagem de orientação baseada no resultado
 
 if  imc < 18.5:
-    print(f'E que e que o(a) mesmo(a), está abaixo do peso ')
+    print(f'E que e que o(a) mesmo(a), está abaixo do peso')
 
 elif 18.5 <= imc <= 24.9:
     print(f'E que e que o(a) mesmo(a), está com um peso normal')
 
 elif 25.0 <= imc <= 29.9:
-    print(f'E que e que o(a) mesmo(a), está com sobrepeso  ')
+    print(f'E que e que o(a) mesmo(a), está com sobrepeso')
     
 elif 30.0 <= imc <= 34.9:
     print(f'E que e que o(a) mesmo(a), está com besidade Grau I)')
@@ -32,3 +32,5 @@ elif 35.5 <= imc <= 39.9 :
 
 else:
     print(f'E que e que o(a) mesmo(a), está com besidade Grau III (mórbida)')
+
+    
